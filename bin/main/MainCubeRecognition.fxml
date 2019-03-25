@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ImageRecognition">
+   <bottom>
+      <HBox alignment="center">
+         <padding>
+            <Insets bottom="25" left="25" right="25" top="25" />
+         </padding>
+         <Button fx:id="button1" alignment="center" onAction="#drawMatchesSwitch" text="Draw Matches" />
+         <Button fx:id="button4" alignment="center" onAction="#drawProjectedCube" text="Draw Projected Cube Lines" />
+	     <Slider fx:id="mySlider" blockIncrement="0.1" layoutX="26.0" layoutY="32.0" majorTickUnit="0.5" max="1.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" />
+         <Button fx:id="button" alignment="center" onAction="#startCamera" text="Start Camera" />
+         <Button fx:id="button2" alignment="center" onAction="#start3dModelPreview" text="Show Digital Twin Preview" />
+         <Button fx:id="button3" alignment="center" onAction="#test" text="Take Twin Preview Snapshot" />
+      </HBox>
+   </bottom>
+   <center>
+      <ImageView fx:id="currentFrame" />
+   </center>
+<!--
+   <top>
+      <AnchorPane prefHeight="150.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+	   <children>
+	      <TextField fx:id="textField" layoutX="100.0" layoutY="99.0" prefHeight="25.0" prefWidth="75.0" />
+	      <Label layoutX="43.0" layoutY="103.0" text="Label" />
+	   </children>
+	  </AnchorPane>
+   </top>
+-->   
+</BorderPane>
+   
+
+
+

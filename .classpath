@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/OpenCV-2.4.6">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/OpenCV-2.4.6/build/java/x64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Marius/Desktop/lwjgl-2.9.3/lwjgl-2.9.3/jar/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marius/Desktop/slick-util.jar"/>
+	<classpathentry kind="lib" path="lib/jars/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CubeRecognition/lib/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Marius/Desktop/jogamp-all-platforms/jar/gluegen.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marius/Desktop/jogamp-all-platforms/jar/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marius/Desktop/jogamp-all-platforms/jar/jogl.jar"/>
+	<classpathentry kind="lib" path="C:/OpenCV-2.4.6/build/java/opencv-2411.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
